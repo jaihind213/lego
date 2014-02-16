@@ -1,0 +1,3 @@
+javac -cp java_src/ java_src/com/jni/Hello.java -d classes/
+
+java -cp classes: com.jni.Hello
